@@ -1,0 +1,10 @@
+/Users/capewearingmama/FrogFitness/frogFitness/bin/Debug/netcoreapp2.0/frogFitness.deps.json
+/Users/capewearingmama/FrogFitness/frogFitness/bin/Debug/netcoreapp2.0/frogFitness.runtimeconfig.json
+/Users/capewearingmama/FrogFitness/frogFitness/bin/Debug/netcoreapp2.0/frogFitness.runtimeconfig.dev.json
+/Users/capewearingmama/FrogFitness/frogFitness/bin/Debug/netcoreapp2.0/frogFitness.dll
+/Users/capewearingmama/FrogFitness/frogFitness/bin/Debug/netcoreapp2.0/frogFitness.pdb
+/Users/capewearingmama/FrogFitness/frogFitness/obj/Debug/netcoreapp2.0/frogFitness.csproj.CoreCompileInputs.cache
+/Users/capewearingmama/FrogFitness/frogFitness/obj/Debug/netcoreapp2.0/frogFitness.AssemblyInfoInputs.cache
+/Users/capewearingmama/FrogFitness/frogFitness/obj/Debug/netcoreapp2.0/frogFitness.AssemblyInfo.cs
+/Users/capewearingmama/FrogFitness/frogFitness/obj/Debug/netcoreapp2.0/frogFitness.dll
+/Users/capewearingmama/FrogFitness/frogFitness/obj/Debug/netcoreapp2.0/frogFitness.pdb
