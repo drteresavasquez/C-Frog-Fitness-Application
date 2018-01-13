@@ -7,12 +7,15 @@ namespace frogFitness
         static void Main(string[] args)
         {
            //Prompt user for minutes exercised
-           System.Console.Write("Enter how many minutes you exercised: ");
+           Console.Write("Enter how many minutes you exercised: ");
 
-           string entry = System.Console.ReadLine();
+           string entry = Console.ReadLine();
 
            //Add minutes exercised to total
            //Display total munutes exercises to screen
+           Console.WriteLine("You've entered " + entry + " minutes!");
+
+
            //Repeat until user quits
 
         }
