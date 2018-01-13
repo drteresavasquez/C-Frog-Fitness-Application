@@ -12,7 +12,7 @@ namespace frogFitness
            string entry = Console.ReadLine();
 
            //Add minutes exercised to total
-           //Display total munutes exercises to screen
+           //Display total minutes exercises to screen
            Console.WriteLine("You've entered " + entry + " minutes!");
 
 
