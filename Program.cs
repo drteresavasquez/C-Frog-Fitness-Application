@@ -21,10 +21,18 @@ namespace frogFitness
                     keepGoing = false;
                 }
                 else{
-                    //converts string input to a number
+
+                    try
+                    {
+                        //converts string input to a number
                     int minutes = int.Parse(entry);
 
-                    if(minutes <= 10)
+                    if(minutes <= 0)
+                    {
+                        Console.WriteLine(minutes + " is not an acceptable value.");
+                        continue;
+                    }
+                    else if(minutes <= 10)
                     {
                         Console.WriteLine("Better than nothing, am I right?");
                     }
@@ -43,7 +51,12 @@ namespace frogFitness
 
                     //Add minutes exercised to total
                     runningTotal = runningTotal + minutes;
-
+                    }
+                    catch(FormatException)
+                    {
+                        Console.WriteLine("That is not valid input");
+                        continue;
+                    }
                     
                     //Display total minutes exercises to screen
                     Console.WriteLine("You've entered " + runningTotal + " minutes!");
