@@ -6,7 +6,7 @@ namespace frogFitness
     {
         static void Main(string[] args)
         {
-            int runningTotal = 0;
+            double runningTotal = 0;
             bool keepGoing = true;
 
           while(keepGoing)
@@ -16,7 +16,7 @@ namespace frogFitness
 
                 string entry = Console.ReadLine();
 
-                if (entry == "quit")
+                if (entry.ToLower() == "quit")
                 {
                     keepGoing = false;
                 }
@@ -25,7 +25,7 @@ namespace frogFitness
                     try
                     {
                         //converts string input to a number
-                    int minutes = int.Parse(entry);
+                    double minutes = double.Parse(entry);
 
                     if(minutes <= 0)
                     {
