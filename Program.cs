@@ -23,9 +23,28 @@ namespace frogFitness
                 else{
                     //converts string input to a number
                     int minutes = int.Parse(entry);
-                    runningTotal = runningTotal + minutes;
+
+                    if(minutes <= 10)
+                    {
+                        Console.WriteLine("Better than nothing, am I right?");
+                    }
+                    else if(minutes <= 30)
+                    {
+                        Console.WriteLine("Way to go, hot stuff!");
+                    }
+                    else if(minutes <= 60)
+                    {
+                        Console.WriteLine("You must be a ninja warrior in traning!");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Ok, Now you're just showing off!");
+                    }
 
                     //Add minutes exercised to total
+                    runningTotal = runningTotal + minutes;
+
+                    
                     //Display total minutes exercises to screen
                     Console.WriteLine("You've entered " + runningTotal + " minutes!");
                 }
