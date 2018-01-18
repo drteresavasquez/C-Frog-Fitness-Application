@@ -19,7 +19,6 @@ namespace frogFitness
                 {
                     break;
                 }
-
                 try
                 {
                     //converts string input to a number
